@@ -1,15 +1,71 @@
-.p{
-    color: red;
-    font-size: 20px;
-}
-@mixin  circle($width,$height) {
-    width:  $width;
-    height: $height;
-    border-radius: 100%;
-    background-color: red;
-}
-.circle{
-    @extend .p ;
-    border: 2px solid black;
 
+@font-face {
+    font-family: myFont;
+    src: url(../font/MYRIADPRO-BOLD.OTF);
+  }
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+}
+header{
+    height: 100px;
+    .lh-header{
+        line-height: 100px;
+    }
+}
+.slider{
+    height: 920px;
+}
+.color-p{
+    color: #545454;
+}
+.btn-main{
+    background-image: linear-gradient(to right, #ff8b00 , #ff314f);
+    border: none;
+    padding: 8px 20px;
+}
+.p-am{
+    padding: 0 -50px !important; 
+}
+.mt-10{
+    margin-top: 85px;
+}
+.bg-1{
+    background-color: #ffa007;
+}
+.bg-2{
+    background-color: #b75cfe;
+}
+.bg-3{
+    background-color: #ff2674;
+}
+.bg-4{
+    background-color: #de19e4;
+}
+.fontweight{
+    font-weight: 100 !important;
+}
+main{
+    
+        .width-block{
+            width: 46%;
+        }
+        .pos-main{
+            left: 82px !important;
+            opacity: 0.8;
+            color: white;
+            background-color: #c71433;
+        }
+        .btn-block3{
+            background-color: white;
+            color: #000000;
+            &:hover {
+                background-color: #ccc;
+
+              }
+        }
+        
+    
 }
