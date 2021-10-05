@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: myFont;
-    src: url(../font/MYRIADPRO-BOLD.OTF);
+    src: url(../font/MYRIADPRO-REGULAR.OTF);
   }
 body{
     padding: 0;
@@ -16,7 +16,7 @@ header{
     }
 }
 .slider{
-    height: 920px;
+   
 }
 .color-p{
     color: #545454;
@@ -47,13 +47,35 @@ header{
 .fontweight{
     font-weight: 100 !important;
 }
+.bg-main{
+    background-color: #f3f3f3;
+}
+header{
+    .menu{
+        line-height: 100px;
+        &:hover {
+            
+            
+          }
+    }
+    .nav-item{
+        padding: 0 40px;
+        &:hover{
+            background-image: linear-gradient(to bottom right,#ac5cfb,#185fd2);
+            color: #fff;
+        }
+    }
+}
 main{
+        .block1{
+            margin-top: 180px;
+        }
     
         .width-block{
             width: 46%;
         }
         .pos-main{
-            left: 82px !important;
+            left: 6.5% !important;
             opacity: 0.8;
             color: white;
             background-color: #c71433;
@@ -66,6 +88,30 @@ main{
 
               }
         }
-        
+       
+        .bg-block4{
+            background-image: linear-gradient(to bottom right, #ffbb18 , #ff7f01);
+        }
+        .m-am{
+            margin: 0 -40px;
+        }
+        .block5{
+            margin-top: 140px;
+            margin-bottom: 50px;
+            .block5-color{
+                color: #ff6300;
+            }
+        }
     
+}
+footer{
+    .bg-contact{
+        background-image: linear-gradient(to bottom right, #0099e1 ,#007bc6);
+    }
+    .footer-icon{
+        color: #0080cb;
+    }
+    .footer-height{
+        height: 350px;
+    }
 }
