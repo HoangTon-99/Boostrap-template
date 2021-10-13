@@ -1,4 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body,html{
+    color: #745a82;
+}
 header{
     height: 80px;
     line-height: 80px;
+}
+
+main{
+    .block2-content{
+        left: 100px;
+        top:30px
+    }
+    .img-am{
+        
+    }
+    .block2-content-absolute{
+        margin-left: 80px;
+        margin-top: 40px;
+    }
 }
