@@ -7,11 +7,6 @@ body {
   box-sizing: border-box;
   font-family: myFont; }
 
-header {
-  height: 100px; }
-  header .lh-header {
-    line-height: 100px; }
-
 .color-p {
   color: #545454; }
 
@@ -20,8 +15,8 @@ header {
   border: none;
   padding: 8px 20px; }
 
-.p-am {
-  padding: 0 -50px !important; }
+.p-block1 {
+  padding: 0 50px !important; }
 
 .mt-10 {
   margin-top: 85px; }
@@ -44,23 +39,34 @@ header {
 .bg-main {
   background-color: #f3f3f3; }
 
-header .menu {
-  line-height: 100px; }
-header .nav-item {
-  padding: 0 40px; }
-  header .nav-item:hover {
-    background-image: linear-gradient(to bottom right, #ac5cfb, #185fd2);
-    color: #fff; }
+.width-block {
+  width: 48%; }
+
+header {
+  height: 80px; }
+  header .lh-header {
+    line-height: 80px; }
+  header .nav-item {
+    padding: 0 40px; }
+    header .nav-item:hover {
+      background-image: linear-gradient(to bottom right, #ac5cfb, #185fd2);
+      color: #fff; }
+
+.slider .width-slide {
+  max-width: 22%; }
+.slider .post-slide {
+  transform: translateX(-50%) translateY(-30%) !important; }
+.slider .post-slide-icon {
+  transform: translateX(-40%); }
 
 main .block1 {
-  margin-top: 180px; }
-main .width-block {
-  width: 46%; }
-main .pos-main {
-  left: 6.5% !important;
+  margin-top: 250px; }
+main .post-main {
   opacity: 0.8;
   color: white;
   background-color: #c71433; }
+main .width-block3 {
+  width: 44.8%; }
 main .btn-block3 {
   background-color: white;
   color: #000000; }
