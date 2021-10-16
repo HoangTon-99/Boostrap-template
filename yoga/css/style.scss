@@ -1,26 +1,55 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-}
-body,html{
-    color: #745a82;
-}
-header{
-    height: 80px;
-    line-height: 80px;
+
 }
 
-main{
-    .block2-content{
+body,
+html {
+    color: #745a82;
+}
+
+.letter-sp-3 {
+    letter-spacing: 3px;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+
+    .color {
+        color: #745a82;
+    }
+}
+
+.slider {}
+
+main {
+    .block1 {
+        .block1__title {
+            margin-bottom: 50px;
+        }
+
+        .backgroud {
+            background-color: #745a82;
+            border: none;
+            min-width: 220px;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .block2-content {
         left: 100px;
-        top:30px
+        top: 30px
     }
-    .img-am{
-        
-    }
-    .block2-content-absolute{
+
+    .img-am {}
+
+    .block2-content-absolute {
         margin-left: 80px;
         margin-top: 40px;
     }
