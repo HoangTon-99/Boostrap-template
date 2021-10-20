@@ -1,3 +1,4 @@
+$main-color:#745a82;
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +9,6 @@
 footer {
     background: url(../img/bg_footer.png) no-repeat;
     background-size: 100%;
-    margin-top: -200px;
 
     .img-width {
         max-width: 30px !important;
@@ -16,19 +16,19 @@ footer {
     }
 
     .title {
-        // color: $main-color;
+        color: $main-color;
         padding-top: 120px;
         text-transform: uppercase;
         line-height: 40px
     }
 
     .text {
-        // color: $main-color;
+        color: $main-color;
         line-height: 30px;
     }
 
     .list {
-        // color: $main-color;
+        color: $main-color;
         list-style-type: none;
         line-height: 36px;
         padding: 35px 0;

@@ -29,7 +29,9 @@ hr {
 .letter-sp-3 {
     letter-spacing: 6px;
 }
-
+.letter-sp-2{
+    letter-spacing: 3px;
+}
 .letter-sp-1 {
     letter-spacing: 2px;
 }
@@ -118,19 +120,16 @@ footer {
     background-size: 100%;
     margin-top: -200px;
     .title {
-        // color: $main-color;
         padding-top: 120px;
         text-transform: uppercase;
         line-height: 40px
     }
 
     .text {
-        // color: $main-color;
         line-height: 30px;
     }
 
     .list {
-        // color: $main-color;
         list-style-type: none;
         line-height: 36px;
         padding: 35px 0;

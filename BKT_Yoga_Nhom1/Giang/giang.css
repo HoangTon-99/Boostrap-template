@@ -8,21 +8,23 @@
 footer {
   background: url(../img/bg_footer.png) no-repeat;
   background-size: 100%;
-  margin-top: -200px;
 }
 footer .img-width {
   max-width: 30px !important;
   max-height: 50px !important;
 }
 footer .title {
+  color: #745a82;
   padding-top: 120px;
   text-transform: uppercase;
   line-height: 40px;
 }
 footer .text {
+  color: #745a82;
   line-height: 30px;
 }
 footer .list {
+  color: #745a82;
   list-style-type: none;
   line-height: 36px;
   padding: 35px 0;
